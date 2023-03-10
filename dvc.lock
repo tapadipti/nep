@@ -84,3 +84,13 @@ stages:
       md5: c3cd7af19cfad7dbad7b1e67864ba7fc.dir
       size: 288365
       nfiles: 2
+  stage_new:
+    cmd: python src/stage_new.py
+    deps:
+    - path: src/stage_new.py
+      md5: f3f27a150eb78f63bc1a05e10ecd4c8a
+      size: 219
+    outs:
+    - path: output/metrics.json
+      md5: e52e892c014f3fddcaba298085dfc03a
+      size: 32

@@ -1,0 +1,8 @@
+[core]
+    remote = store
+['remote "storage"']
+    url = s3://tds219bucket/dir
+    credentialpath = /Users/tapadiptisitaula/.aws/credentials
+    profile = iterative-sandbox
+['remote "store"']
+    url = gs://tds-gcp-bucket-1/dvc-data

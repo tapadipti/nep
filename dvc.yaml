@@ -45,3 +45,9 @@ stages:
     metrics:
     - eval/live/metrics.json:
         cache: false
+  stage_new:
+    cmd: python src/stage_new.py
+    deps:
+    - src/stage_new.py
+    metrics:
+    - output/metrics.json

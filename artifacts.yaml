@@ -1,0 +1,3 @@
+my-model:
+  path: my-model.pkl
+  type: model

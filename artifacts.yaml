@@ -1,0 +1,6 @@
+model-a:
+  labels:
+  - label1
+  - label2
+  path: model-a.pkl
+  type: model
